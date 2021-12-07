@@ -6,7 +6,7 @@ export const Cv = () => {
 
         <div >
             <section>
-                <nav class="cv-index text-center">
+                <nav className="cv-index text-center">
                     <a href="#inicio" title="inicio">🏠</a>
                     <a href="#contacto" title="contacto">📇</a>
                     <a href="#acerca" title="acerca">🧑</a>
@@ -20,31 +20,31 @@ export const Cv = () => {
                 </nav>
             </section>
 
-            <section class="hello hello-cv">
+            <section className="hello hello-cv">
                 <article>
                     <img src="../assets/img/me.jpg" alt="Foto retrato Rafa Calvente" />
                     <h1>Rafa Calvente</h1>
-                    <p class="text-center">
+                    <p className="text-center">
                         Estudiante de Ingerniería Informática y Programador <i>Web</i>
                     </p>
-                    <a href="../assets/rafacalvente-cv.pdf" target="_blank" rel="noopener"
+                    <a href="../assets/rafacalvente-cv.pdf" target="_blank" rel="noreferrer"
                     >versión 🖨️ impresa</a
                     >
                 </article>
             </section>
 
-            <article id="contacto" class="cv-contact section">
-                <h2 class="">contacto</h2>
-                <ul class="text-left">
+            <article id="contacto" className="cv-contact section">
+                <h2 className="">contacto</h2>
+                <ul className="text-left">
                     <li>Soy Rafael Rodríguez Calvente</li>
                     <li>Nací en España. Febrero 23, 1997</li>
                     <li>Vivo en Chiclana de la Fra, Cádiz</li>
-                    <li class="li-small">rafaelrodriguezcalvente@gmail.com</li>
-                    <li><a href="/">rafacalventeweb.es</a></li>
+                    <li className="li-small">rafaelrodriguezcalvente@gmail.com</li>
+                    <li><a href="/" rel="noreferrer"s>rafacalventeweb.es</a></li>
                 </ul>
             </article>
 
-            <article id="acerca" class="cv-about section">
+            <article id="acerca" className="cv-about section">
                 <h2>acerca</h2>
                 <p>
                     A raíz del confinamiento vivido durante los meses de Marzo y Mayo de
@@ -63,17 +63,17 @@ export const Cv = () => {
                 </p>
             </article>
 
-            <article id="educacion" class="cv-edu section">
+            <article id="educacion" className="cv-edu section">
                 <h2>educación</h2>
-                <ul class="fluid-1">
+                <ul className="fluid-1">
                     <li>Eterno autodidacta.</li>
                     <li>
                         Actualmente, Ingeniería Informática en
-                        <a href="https://www.uca.es/" target="_blank" rel="noopener">UCA</a>
+                        <a href="https://www.uca.es/" target="_blank" rel="noreferrer">UCA</a>
                     </li>
                     <li>
                         2015, Bachillerato científico-tecnológico en
-                        <a href="https://www.iespicasso.com/" target="_blank" rel="noopener"
+                        <a href="https://www.iespicasso.com/" target="_blank" rel="noreferrer"
                         >IES Pablo Ruíz Picasso</a
                         >
                     </li>
@@ -82,16 +82,16 @@ export const Cv = () => {
                         <a
                             href="https://conservatoriomanueldefalla.es/"
                             target="_blank"
-                            rel="noopener"
+                            rel="noreferrer"
                         >Real Conservatorio Profesional de Música</a
                         >
                     </li>
                 </ul>
             </article>
 
-            <article id="habilidades" class="cv-skills section">
+            <article id="habilidades" className="cv-skills section">
                 <h2>habilidades</h2>
-                <ul class="">
+                <ul className="">
                     <li>Programación <i>Web</i> <i>Frontend</i></li>
                     <li>Programación <i>Web</i> <i>Backend</i></li>
                     <li>Diseño y Maquetación <i>Web</i></li>
@@ -100,33 +100,33 @@ export const Cv = () => {
                 </ul>
             </article>
 
-            <article id="tecnologias" class="cv-tech section">
+            <article id="tecnologias" className="cv-tech section">
                 <h2>tecnologías</h2>
                 <aside>
-                    <img class="icon-x5" src="../assets/img/html5.svg" alt="HTML5" />
-                    <img class="icon-x5" src="../assets/img/css.svg" alt="CSS" />
+                    <img className="icon-x5" src="../assets/img/html5.svg" alt="HTML5" />
+                    <img className="icon-x5" src="../assets/img/css.svg" alt="CSS" />
                     <img
-                        class="icon-x5"
+                        className="icon-x5"
                         src="../assets/img/javascript.svg"
                         alt="JavaScript"
                     />
                     <img
-                        class="icon-x5"
+                        className="icon-x5"
                         src="../assets/img/bootstrap.svg"
                         alt="Bootstrap"
                     />
-                    <img class="icon-x5" src="../assets/img/react.svg" alt="React" />
-                    <img class="icon-x5" src="../assets/img/node.svg" alt="Node" />
-                    <img class="icon-x5" src="../assets/img/php.svg" alt="PHP" />
-                    <img class="icon-x5" src="../assets/img/mysql.svg" alt="MySQL" />
-                    <img class="icon-x5" src="../assets/img/git.svg" alt="Git" />
-                    <img class="icon-x5" src="../assets/img/github.svg" alt="GitHub" />
-                    <img class="icon-x5" src="../assets/img/markdown.svg" alt="MarkDown" />
-                    <img class="icon-x5" src="../assets/img/jquery.svg" alt="jQuery" />
+                    <img className="icon-x5" src="../assets/img/react.svg" alt="React" />
+                    <img className="icon-x5" src="../assets/img/node.svg" alt="Node" />
+                    <img className="icon-x5" src="../assets/img/php.svg" alt="PHP" />
+                    <img className="icon-x5" src="../assets/img/mysql.svg" alt="MySQL" />
+                    <img className="icon-x5" src="../assets/img/git.svg" alt="Git" />
+                    <img className="icon-x5" src="../assets/img/github.svg" alt="GitHub" />
+                    <img className="icon-x5" src="../assets/img/markdown.svg" alt="MarkDown" />
+                    <img className="icon-x5" src="../assets/img/jquery.svg" alt="jQuery" />
                 </aside>
             </article>
 
-            <article id="intereses" class="cv-interests section">
+            <article id="intereses" className="cv-interests section">
                 <h2>intereses</h2>
                 <ul>
                     <li>
@@ -139,7 +139,7 @@ export const Cv = () => {
                         <a
                             href="https://www.youtube.com/SferaMusicalC%C3%A1diz"
                             target="_blank"
-                            rel="noopener"
+                            rel="noreferrer"
                         >canal en YouTube</a
                         >
                         donde enseño sobre el maravilloso mundo de la <i>música</i>.
@@ -155,13 +155,13 @@ export const Cv = () => {
                 </ul>
             </article>
 
-            <article id="experiencia-profesional" class="cv-developer section">
+            <article id="experiencia-profesional" className="cv-developer section">
                 <h2>experiencia profesional</h2>
                 <aside id="projects">
-                    <a href="https://webimpacto.agency/" target="_blank" rel="noopener">
+                    <a href="https://webimpacto.agency/" target="_blank" rel="noreferrer">
                         <figure>
                             <img
-                                class="webimpacto-img"
+                                className="webimpacto-img"
                                 src="../assets/img/webimpacto.png"
                                 alt="Web Impacto"
                             />
@@ -174,7 +174,7 @@ export const Cv = () => {
                     <a
                         href="http://webmusicaltalent.weebly.com/"
                         target="_blank"
-                        rel="noopener"
+                        rel="noreferrer"
                     >
                         <figure>
                             <img src="../assets/img/musicaltalent.jpg" alt="Musical Talent" />
@@ -189,5 +189,3 @@ export const Cv = () => {
         </div>
     );
 };
-
-

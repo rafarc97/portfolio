@@ -5,12 +5,12 @@ export const Ahora = () => {
     return (
 
         <div >
-            <article class="ahora">
-                <h1 class="text-center">
+            <article className="ahora">
+                <h1 className="text-center">
                     ¿Qué hago ahora mismo?
                 </h1>
-                <aside class="section section-ahora">
-                    <img class="container" src="../assets/img/ahora.jpg" alt="¿Qué estoy haciendo ahora mismo?" loading="lazy"/>
+                <aside className="section section-ahora">
+                    <img className="container" src="../assets/img/ahora.jpg" alt="¿Qué estoy haciendo ahora mismo?" loading="lazy"/>
                     <p>
                     He de decir que aprecio mucho mi calidad de vida.Respeto mi tiempo y
                     el de los demás.
@@ -26,25 +26,25 @@ export const Ahora = () => {
                     contribución posible...
                     </i>
                     </p>
-                    <p class ="fluid-1 text-right">
+                    <p className ="fluid-1 text-right">
                     <b><i>...menos pero mejor.</i></b>
                     </p>
                 </aside>
 
-                <aside class="section section-2-ahora">
+                <aside className="section section-2-ahora">
                     <h3>Actualmente enfocado en:</h3>
                     <ol>
                         <li>Desarrollo web en <i><a href="https://webimpacto.agency/">WebImpacto</a></i>.</li>
                         <li>Grado en Ingeniería Informática.</li>
-                        <li class="fluid-1">Desarrollo de Proyecto para <a href="http://www.millanchiclana.com/" target="_blank"
-                            rel="noopener">Millán Chiclana</a>.</li>
-                        <li class="fluid-1">¿Tienes un proyecto? escríbeme a...</li>
-                        <a class="btn btn-success" href="mailto:rafaelrodriguezcalvente@gmail.com" target="_blank" rel="noopener">
+                        <li className="fluid-1">Desarrollo de Proyecto para <a href="http://www.millanchiclana.com/" target="_blank"
+                            rel="noreferrer">Millán Chiclana</a>.</li>
+                        <li className="fluid-1">¿Tienes un proyecto? escríbeme a...</li>
+                        <a className="btn btn-success" href="mailto:rafaelrodriguezcalvente@gmail.com" target="_blank" rel="noreferrer">
                             <small>rafaelrodriguezcalvente@gmail.com</small>
                         </a>
                     </ol>
                     <br/>
-                    <p class ="text-right">
+                    <p className ="text-right">
                     <small>
                     <b><i>Última actualización: <span id="now-date">Oct 11 2020</span>.</i></b>
                     </small>
