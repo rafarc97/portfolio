@@ -14,10 +14,10 @@ export const Header = () => {
       </h2>
 
       <nav className="nav">
-        <a href="proyectos/proyectos.html"> Proyectos </a>
-        <a href="cv/cv.html"> CV </a>
-        <a href="ahora/ahora.html"> Ahora </a>
-        <a href="contacto/contacto.html"> Contáctame </a>
+        <a href="projects"> Proyectos </a>
+        <a href="cv"> CV </a>
+        <a href="ahora"> Ahora </a>
+        <a href="contacto"> Contáctame </a>
       </nav>
     </header>
   );
