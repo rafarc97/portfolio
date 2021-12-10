@@ -44,6 +44,7 @@ export const Home = () => {
             href={pdf}
             target="_blank"
             className="cv-presentation"
+            rel="noreferrer"
           > CV</a
           >.
         </h4>
