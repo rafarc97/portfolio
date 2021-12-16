@@ -1,4 +1,6 @@
 import React from "react";
+import ahora from "../img/ahora.jpg";
+
 
 export const Ahora = () => {
 
@@ -10,7 +12,7 @@ export const Ahora = () => {
                     ¿Qué hago ahora mismo?
                 </h1>
                 <aside className="section section-ahora">
-                    <img className="container" src="../assets/img/ahora.jpg" alt="¿Qué estoy haciendo ahora mismo?" loading="lazy"/>
+                    <img className="container" src={ahora} alt="¿Qué estoy haciendo ahora mismo?" loading="lazy"/>
                     <p>
                     He de decir que aprecio mucho mi calidad de vida.Respeto mi tiempo y
                     el de los demás.
@@ -34,8 +36,9 @@ export const Ahora = () => {
                 <aside className="section section-2-ahora">
                     <h3>Actualmente enfocado en:</h3>
                     <ol>
-                        <li>Desarrollo web en <i><a href="https://webimpacto.agency/">WebImpacto</a></i>.</li>
                         <li>Grado en Ingeniería Informática.</li>
+                        <li className="fluid-1">Desarrollo de Portfolio para el atleta olímpico<a href="https://es.wikipedia.org/wiki/Ignacio_Fontes_Garc%C3%ADa-Balibrea" target="_blank"
+                            rel="noreferrer"> Ignacio Fontes</a>.</li>
                         <li className="fluid-1">Desarrollo de Proyecto para <a href="http://www.millanchiclana.com/" target="_blank"
                             rel="noreferrer">Millán Chiclana</a>.</li>
                         <li className="fluid-1">¿Tienes un proyecto? escríbeme a...</li>
@@ -46,7 +49,7 @@ export const Ahora = () => {
                     <br/>
                     <p className ="text-right">
                     <small>
-                    <b><i>Última actualización: <span id="now-date">Oct 11 2020</span>.</i></b>
+                    <b><i>Última actualización: <span id="now-date">Dic 16 2021</span>.</i></b>
                     </small>
                     </p>
                 </aside>

@@ -31,7 +31,7 @@ export const Footer = () => {
         </div>
 
         <section className="links">
-          <a name="copyright " href="#copyright"
+          <a name="copyright " href="./"
             >© 2021 Copyright: Rafael Calvente Web</a
           >
         </section>

@@ -1,4 +1,20 @@
 import React from "react";
+import me from "../img/me.jpg";
+import html5 from "../img/html5.svg";
+import css from "../img/css.svg";
+import javascript from "../img/javascript.svg";
+import bootstrap from "../img/bootstrap.svg";
+import react from "../img/react.svg";
+import node from "../img/node.svg";
+import php from "../img/php.svg";
+import mysql from "../img/mysql.svg";
+import git from "../img/git.svg";
+import github from "../img/github.svg";
+import markdown from "../img/markdown.svg";
+import jquery from "../img/jquery.svg";
+import webimpacto from "../img/webimpacto.png";
+import musicaltalent from "../img/musicaltalent.jpg";
+import pdf from "../Rafael_Rodríguez_Calvente_CV_EN.pdf";
 
 export const Cv = () => {
 
@@ -22,12 +38,12 @@ export const Cv = () => {
 
             <section className="hello hello-cv">
                 <article>
-                    <img src="../assets/img/me.jpg" alt="Foto retrato Rafa Calvente" />
+                    <img src={me} alt="Foto retrato Rafa Calvente" />
                     <h1>Rafa Calvente</h1>
                     <p className="text-center">
                         Estudiante de Ingerniería Informática y Programador <i>Web</i>
                     </p>
-                    <a href="../assets/rafacalvente-cv.pdf" target="_blank" rel="noreferrer"
+                    <a href={pdf} target="_blank" rel="noreferrer"
                     >versión 🖨️ impresa</a
                     >
                 </article>
@@ -40,7 +56,7 @@ export const Cv = () => {
                     <li>Nací en España. Febrero 23, 1997</li>
                     <li>Vivo en Chiclana de la Fra, Cádiz</li>
                     <li className="li-small">rafaelrodriguezcalvente@gmail.com</li>
-                    <li><a href="/" rel="noreferrer"s>rafacalventeweb.es</a></li>
+                    <li><a href="/" target="_blank" rel="noreferrer"s>rafacalventeweb.com</a></li>
                 </ul>
             </article>
 
@@ -69,12 +85,12 @@ export const Cv = () => {
                     <li>Eterno autodidacta.</li>
                     <li>
                         Actualmente, Ingeniería Informática en
-                        <a href="https://www.uca.es/" target="_blank" rel="noreferrer">UCA</a>
+                        <a href="https://www.uca.es/" target="_blank" rel="noreferrer"> UCA</a>
                     </li>
                     <li>
                         2015, Bachillerato científico-tecnológico en
                         <a href="https://www.iespicasso.com/" target="_blank" rel="noreferrer"
-                        >IES Pablo Ruíz Picasso</a
+                        > IES Pablo Ruíz Picasso</a
                         >
                     </li>
                     <li>
@@ -83,7 +99,7 @@ export const Cv = () => {
                             href="https://conservatoriomanueldefalla.es/"
                             target="_blank"
                             rel="noreferrer"
-                        >Real Conservatorio Profesional de Música</a
+                        > Real Conservatorio Profesional de Música</a
                         >
                     </li>
                 </ul>
@@ -103,26 +119,26 @@ export const Cv = () => {
             <article id="tecnologias" className="cv-tech section">
                 <h2>tecnologías</h2>
                 <aside>
-                    <img className="icon-x5" src="../assets/img/html5.svg" alt="HTML5" />
-                    <img className="icon-x5" src="../assets/img/css.svg" alt="CSS" />
+                    <img className="icon-x5" src={html5} alt="HTML5" />
+                    <img className="icon-x5" src={css} alt="CSS" />
                     <img
                         className="icon-x5"
-                        src="../assets/img/javascript.svg"
+                        src={javascript}
                         alt="JavaScript"
                     />
                     <img
                         className="icon-x5"
-                        src="../assets/img/bootstrap.svg"
+                        src={bootstrap}
                         alt="Bootstrap"
                     />
-                    <img className="icon-x5" src="../assets/img/react.svg" alt="React" />
-                    <img className="icon-x5" src="../assets/img/node.svg" alt="Node" />
-                    <img className="icon-x5" src="../assets/img/php.svg" alt="PHP" />
-                    <img className="icon-x5" src="../assets/img/mysql.svg" alt="MySQL" />
-                    <img className="icon-x5" src="../assets/img/git.svg" alt="Git" />
-                    <img className="icon-x5" src="../assets/img/github.svg" alt="GitHub" />
-                    <img className="icon-x5" src="../assets/img/markdown.svg" alt="MarkDown" />
-                    <img className="icon-x5" src="../assets/img/jquery.svg" alt="jQuery" />
+                    <img className="icon-x5" src={react} alt="React" />
+                    <img className="icon-x5" src={node} alt="Node" />
+                    <img className="icon-x5" src={php} alt="PHP" />
+                    <img className="icon-x5" src={mysql} alt="MySQL" />
+                    <img className="icon-x5" src={git} alt="Git" />
+                    <img className="icon-x5" src={github} alt="GitHub" />
+                    <img className="icon-x5" src={markdown} alt="MarkDown" />
+                    <img className="icon-x5" src={jquery} alt="jQuery" />
                 </aside>
             </article>
 
@@ -140,7 +156,7 @@ export const Cv = () => {
                             href="https://www.youtube.com/SferaMusicalC%C3%A1diz"
                             target="_blank"
                             rel="noreferrer"
-                        >canal en YouTube</a
+                        >canal en YouTube </a
                         >
                         donde enseño sobre el maravilloso mundo de la <i>música</i>.
                     </li>
@@ -162,12 +178,12 @@ export const Cv = () => {
                         <figure>
                             <img
                                 className="webimpacto-img"
-                                src="../assets/img/webimpacto.png"
+                                src={webimpacto}
                                 alt="Web Impacto"
                             />
                             <figcaption>
-                                <span>Web Impacto<small>( 2020 )</small></span>
-                                <small>Desarrollador Web Front/Back End.</small>
+                                <span>Web Impacto<small> ( 2020 )</small></span>
+                                <small> Desarrollador Web Front/Back End.</small>
                             </figcaption>
                         </figure>
                     </a>
@@ -177,10 +193,10 @@ export const Cv = () => {
                         rel="noreferrer"
                     >
                         <figure>
-                            <img src="../assets/img/musicaltalent.jpg" alt="Musical Talent" />
+                            <img src={musicaltalent} alt="Musical Talent" />
                             <figcaption>
                                 <span>Musical Talent <small>( 2015-2020 )</small></span>
-                                <small>Violista principal de la empresa.</small>
+                                <small> Violista principal de la empresa.</small>
                             </figcaption>
                         </figure>
                     </a>
