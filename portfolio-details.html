@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <!-- <title>Portfolio</title> -->
+  <!-- <title>Projects</title> -->
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -50,37 +50,39 @@
 
       <nav id="navbar" class="nav-menu navbar">
         <ul>
-          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
-          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
-          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
-          <!-- <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li> -->
+          <li><a href="index.html#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+          <li><a href="index.html#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+          <li><a href="index.html#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+          <li><a href="index.html#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Projects</span></a></li>
           <!-- <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li> -->
-          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+          <li><a href="index.html#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
         </ul>
-      </nav><!-- .nav-menu -->
+      </nav>
+      <!-- .nav-menu -->
     </div>
-  </header><!-- End Header -->
+  </header>
+  <!-- End Header -->
 
   <main id="main">
 
     <!-- ======= Breadcrumbs ======= -->
-    <!-- <section id="breadcrumbs" class="breadcrumbs">
+    <section id="breadcrumbs" class="breadcrumbs">
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>Portfoio Details</h2>
+          <h2>Projects Details</h2>
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li>Portfoio Details</li>
+            <li>Projects Details</li>
           </ol>
         </div>
 
       </div>
-    </section> -->
+    </section>
     <!-- End Breadcrumbs -->
 
     <!-- ======= Blog Details Section ======= -->
-    <!-- <section id="portfolio-details" class="portfolio-details">
+    <section id="portfolio-details" class="portfolio-details">
       <div class="container">
 
         <div class="row gy-4">
@@ -90,17 +92,17 @@
               <div class="swiper-wrapper align-items-center">
 
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio/portfolio-details-1.jpg" alt="">
+                  
+                  <img src="assets/img/portfolio/portfolio-1.jpg" alt="">
                 </div>
 
-                <div class="swiper-slide">
+                <!-- <div class="swiper-slide">
                   <img src="assets/img/portfolio/portfolio-details-2.jpg" alt="">
                 </div>
 
                 <div class="swiper-slide">
                   <img src="assets/img/portfolio/portfolio-details-3.jpg" alt="">
-                </div>
-
+                </div> -->
               </div>
               <div class="swiper-pagination"></div>
             </div>
@@ -110,16 +112,16 @@
             <div class="portfolio-info">
               <h3>Project information</h3>
               <ul>
-                <li><strong>Category</strong>: Web design</li>
-                <li><strong>Client</strong>: ASU Company</li>
-                <li><strong>Project date</strong>: 01 March, 2020</li>
-                <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
+                <li><strong>Category</strong>: C/C++</li>
+                <!-- <li><strong>Client</strong>: ASU Company</li> -->
+                <!-- <li><strong>Project date</strong>: 01 March, 2020</li> -->
+                <li><strong>Project URL</strong>: <a href="#">https://github.com/rafarc97/pyramid-builder</a></li>
               </ul>
             </div>
             <div class="portfolio-description">
-              <h2>This is an example of portfolio detail</h2>
+              <h2>Pyramid Builder</h2>
               <p>
-                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
+                This is a program developed in C++ that takes a list of integers as input and builds a pyramid from those values. The pyramid is constructed by sorting the integers in ascending order from top to bottom and from left to right, with empty spaces filled with zeros. To make the pyramid symmetric, the input numbers are alternated with zeros. The program will calculate the number of rows and columns required to build the pyramid based on the length of the input list. It will then determine where to place the integers and zeros in the pyramid, following the required sorting and alternating pattern. If it is not possible to build a pyramid using the input list, the program will raise a "CannotBuildPyramidException" to indicate the error. The output of the program is a 2D array representing the pyramid constructed from the input values. The program includes unit tests with examples to ensure the correct functioning of the code.
               </p>
             </div>
           </div>
@@ -127,8 +129,8 @@
         </div>
 
       </div>
-    </section> -->
-    <!-- End Portfolio Details Section -->
+    </section>
+    <!-- End Projects Details Section -->
 
   </main><!-- End #main -->
 
