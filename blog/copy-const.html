@@ -28,7 +28,11 @@
 
 <!-- Template Main CSS File -->
 <link href="../assets/css/style.css" rel="stylesheet">
-
+<style>
+  pre {
+    white-space: pre-wrap;
+  }
+</style>
 
 </head>
 
@@ -92,46 +96,83 @@
     <section id="portfolio-details" class="portfolio-details">
       <div class="container">
         <div class="row gy-4">
-          <div class="col-lg-8">
+          <div class="col-lg-12">
+            <div class="portfolio-info">
+              <!-- <h3>Blog information</h3> -->
+              <ul>
+                <li><strong>Category</strong>: C++</li>
+
+                <div class="portfolio-description">
+                  <h2>Copy constructor</h2>
+                  <p>
+                  <pre>
+Hello everybody! 👋
+
+
+😡 Have you ever struggled with the bad behavior of your 𝐜𝐨𝐩𝐲 𝐜𝐨𝐧𝐬𝐭𝐫𝐮𝐜𝐭𝐨𝐫 in C++? Look no further to
+understand WHAT it is, WHERE and WHEN it is called, and WHY sometimes we need to define a custom one.
+
+
+🤔 𝐖𝐇𝐀𝐓 is a COPY CONSTRUCTOR?
+in C++, a copy constructor is used to create a new object that is a copy of an existing object of the same class. It
+receives a constant reference to the object being copied and is used to replicate the object's state. The reference is
+read-only and should not be modified since it is only used to copy the object's state and not to change it.
+
+
+📍 𝐖𝐇𝐄𝐍 and 𝐖𝐇𝐄𝐑𝐄 is the COPY CONSTRUCTOR normally called?
+The copy constructor is called in three situations:
+• When a new object is created from an existing object of the same class
+• When an object is passed by value as a parameter to a function: it means that the actual parameters are copied to the
+formal parameters.
+• When an object is returned by value from a function: furthermore, when a method reaches the return statement and
+returns a value by value.
+
+
+⚠️ 𝐋𝐢𝐧𝐞 29: in the example showcases the copy constructor is called three times during the initialization of e5,
+which could be optimized by the compiler to call it only twice.
+𝐔𝐬𝐞 “-𝐒” arguments when compiling your code in order to get the assembly code and find out whether your compiler
+might be optimizing it somehow.
+I’d also recommend to look up you these concepts: Return Value Optimization (𝐑𝐕𝐎) or Named Return Value Optimization
+(𝐍𝐑𝐕𝐎) and 𝐂𝐨𝐩𝐲 𝐄𝐥𝐢𝐬𝐢𝐨𝐧.
+
+
+💡 𝐖𝐇𝐘 sometimes do we need to define a CUSTOM COPY CONSTRUCTOR??
+The default copy constructor works the same as copying structures in C, which means copying value by value. However,
+this default copy constructor doesn't always work well with all classes, and some classes may require additional
+operations such as detecting error conditions, allocating memory, or releasing it. In such cases, relying on the default
+copy constructor or assignment operator provided by the compiler would be inadequate, and custom implementation may be
+necessary.
+Whenever we define a copy constructor, we must also define the copy assignment operator because both ultimately perform
+copying, and both can be equally good or bad. For example, when we need to copy a simple data type like an integer, we
+don't have to do anything special, just copy it. But when we have an attribute of type pointer to character, i.e., an
+attribute that stores the memory address where the vector begins, we need to define a copy constructor and assignment
+operator. Otherwise, we will have a problem with aliasing, and when we modify one of these 2 objects, one copied from
+the other, we will be directly modifying both since those two pointers are identical. We could also get segmentation
+violations or unexpected runtime errors by accessing forbidden memory addresses.
+
+
+Thanks for reading!! 👨‍💻
+#embedded #c++ #programming
+                    
+                    
+                                        </pre>
+                  </p>
+                </div>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-12">
             <div class="portfolio-details-slider swiper">
-              <div class="portfolio-description">
-                <h2>QT Calculator</h2>
-                <p>
-                  This app is a simple calculator created using the QT framework. The calculator can perform basic
-                  arithmetic operations
-                  such as addition, subtraction, multiplication, and division.
-                </p>
-              </div>
               <div class="swiper-wrapper align-items-center">
                 <div class="swiper-slide">
-                  <img src="../assets/img/portfolio/calculator.jpg" alt="">
+                  <img src="../assets/img/blog/8-blog-copy/8.1-copy constructor.jpg" alt="">
                 </div>
               </div>
               <br>
-              <div class="swiper-wrapper align-items-center">
-                <div class="swiper-slide">
-                  <img src="../assets/img/portfolio/calculator.jpg" alt="">
-                </div>
-              </div>
               <div class="swiper-pagination"></div>
             </div>
           </div>
-
-          <div class="col-lg-4">
-            <!-- <div class="portfolio-info">
-              <h3>Blog information</h3>
-              <ul>
-                <li><strong>Category</strong>: C/C++/QT</li>
-                <li><strong>Blog URL</strong>: <a target="_blank"
-                    href="https://github.com/rafarc97/QT/tree/main/Calculator">https://github.com/rafarc97/QT/tree/main/Calculator</a>
-                </li>
-              </ul>
-            </div> -->
-
-          </div>
-
         </div>
-
       </div>
     </section>
     <!-- End Blogs Details Section -->
