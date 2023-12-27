@@ -664,7 +664,7 @@ section {
 .portfolio-details .portfolio-info ul {
   list-style: none;
   padding: 0;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 .portfolio-details .portfolio-info ul li+li {
@@ -676,13 +676,25 @@ section {
 }
 
 .portfolio-details .portfolio-description h2 {
-  font-size: 26px;
+  font-size: 40px;
   font-weight: 700;
   margin-bottom: 20px;
 }
 
 .portfolio-details .portfolio-description p {
   padding: 0;
+    font-size: 30px;
+}
+
+/* Media query for screens smaller than 800px */
+@media (min-width: 1000px) {
+  .portfolio-details .portfolio-description h2 {
+    font-size: 20px; 
+  }
+
+  .portfolio-details .portfolio-description p {
+    font-size: 15px;
+  }
 }
 
 /*--------------------------------------------------------------
