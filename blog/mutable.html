@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <!-- <title>Projects</title> -->
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="../assets/img/favicon.png" rel="icon">
+  <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="../assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
+
+      <div class="profile">
+        <img src="../assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="index.html">Rafa Rodríguez</a></h1>
+        <div class="social-links mt-3 text-center">
+          <a href="https://www.linkedin.com/in/rafael-rodriguez-calvente/" target=”_blank” class="linkedin"><i
+              class="bx bxl-linkedin"></i></a>
+          <a href="https://github.com/rafarc97" target=”_blank” class="github"><i class="bx bxl-github"></i></a>
+        </div>
+      </div>
+
+      <nav id="navbar" class="nav-menu navbar">
+        <ul>
+          <li><a href="../index.html#hero" class="nav-link scrollto active"><i class="bx bx-home"></i>
+              <span>Home</span></a></li>
+          <li><a href="../index.html#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a>
+          </li>
+          <li><a href="../index.html#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i>
+              <span>Resume</span></a></li>
+          <li><a href="../main-blog.html" class="nav-link scrollto"><i class="bx bx-file-blank"></i>
+              <span>Blog</span></a>
+          </li>
+          <li><a href="../index.html#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i>
+              <span>Projects</span></a></li>
+          <!-- <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li> -->
+          <li><a href="../index.html#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i>
+              <span>Contact</span></a></li>
+        </ul>
+      </nav>
+      <!-- .nav-menu -->
+    </div>
+  </header>
+  <!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>Post Details</h2>
+          <ol>
+            <li><a href="../index.html">Home</a></li>
+            <li>Post Details</li>
+          </ol>
+        </div>
+
+      </div>
+    </section>
+    <!-- End Breadcrumbs -->
+
+    <!-- ======= Blog Details Section ======= -->
+    <section id="portfolio-details" class="portfolio-details">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper">
+              <div class="swiper-wrapper align-items-center">
+                <div class="swiper-slide">
+                  <img src="../assets/img/blog/11-blog-mutable/11-mutable.jpg" alt="">
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="portfolio-description">
+              <h2>Mutable Keyword</h2>
+              <p>
+                👋 Greetings to all! I hope you're doing well. In this post, I'd like to explain how the "mutable"
+                keyword works in C++.
+                <br>
+                I hope this post will be helpful to those who are new to programming or those who are looking for a
+                refresher on this
+                topic.
+                <br>
+                As we know, in C++, one of the uses for the "const" keyword is to indicate that an object is constant
+                and cannot be
+                modified. However, sometimes we may need to modify a member variable even if it is declared as const.
+                This is where the
+                "mutable" keyword comes in handy.
+                <br>
+                🤔 Let's consider a scenario where we have a Car class with a private attribute called "color" and a
+                public method named
+                "void changeColor() const". We also have an object of this class called "car" in our main function. Now,
+                if we wanted to
+                modify the color attribute, we can simply write "car.changeColor()". However, we may encounter an issue
+                here. What does
+                the "const" keyword mean when it is included in the method signature? In such cases, "const" means that
+                the parameter
+                implicit “car” will become a constant object within the "changeColor()" method (even though this object
+                wouldn't have
+                been declared as const in the main function) making it impossible to modify the color private attribute.
+                <br>
+                💡 To overcome this problem, we have two options to choose from, depending on our requirements.
+                ➡️ The first option is to remove the "const" keyword from our "changeColor()" method if we need to
+                modify the color
+                attribute and possibly some other attributes in our Car class. This way, all attributes of our car
+                object can be
+                modified from this method.
+                ➡️ Alternatively, we can use the "mutable" keyword if we wanted to protect the other attributes (not the
+                color one) from
+                being modified within this method.
+                To put it plainly, "a mutable attribute can be modified in any event, even when it belongs to a const
+                object".
+                <br>
+                I hope this post helps you better understand the "mutable" keyword in C++ and how it can be useful in
+                programming. If
+                you have any questions or comments, feel free to share them with us ✍️
+                Thank you for reading, and I wish you a great day ahead! 😁
+                <br>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Projects Details Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Rafa Rodríguez</span></strong>
+      </div>
+      <div class="credits">
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="../assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="../assets/vendor/aos/aos.js"></script>
+  <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="../assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="../assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="../assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="../assets/js/main.js"></script>
+
+</body>
+
+</html>
