@@ -33,17 +33,17 @@ h6 {
   visibility: hidden;
   opacity: 0;
   right: 15px;
-  bottom: 15px;
+  bottom: 80px;
   z-index: 996;
   background: #149ddd;
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   border-radius: 50px;
   transition: all 0.4s;
 }
 
 .back-to-top i {
-  font-size: 28px;
+  font-size: 62px;
   color: #fff;
   line-height: 0;
 }
@@ -200,17 +200,17 @@ h6 {
 /* Mobile Navigation */
 .mobile-nav-toggle {
   position: fixed;
-  right: 60px;
+  right: 15px;
   bottom: 15px;
   z-index: 9998;
   border: 0;
-  font-size: 24px;
+  font-size: 40px;
   transition: all 0.4s;
   outline: none !important;
   background-color: #149ddd;
   color: #fff;
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
