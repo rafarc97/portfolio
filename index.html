@@ -19,30 +19,29 @@
   <link href="assets/img/apple-touch-icon.png" defer rel="apple-touch-icon">
   <!-- Vendor CSS Files -->
   <link defer rel="stylesheet" href="assets/vendor/google-fonts/google-fonts.css">
-  <link href="assets/vendor/aos/aos.css" defer rel="stylesheet">
+  <!-- <link href="assets/vendor/aos/aos.css" defer rel="stylesheet"> -->
   <!-- <link href="assets/vendor/bootstrap/css/bootstrap.min.css" defer rel="stylesheet"> -->
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" defer rel="stylesheet">
+  <!-- <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" defer rel="stylesheet"> -->
   <!-- <link href="assets/vendor/boxicons/css/boxicons.min.css" defer rel="stylesheet"> -->
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" defer rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" defer rel="stylesheet">
+  <!-- <link href="assets/vendor/glightbox/css/glightbox.min.css" defer rel="stylesheet"> -->
+  <!-- <link href="assets/vendor/swiper/swiper-bundle.min.css" defer rel="stylesheet"> -->
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
   <!-- LOAD CSS -->
   <script type='text/javascript'>
     (function () {
-      // Array of CSS files you want to include
       let cssFiles = [
         'assets/vendor/bootstrap/css/bootstrap.min.css',
         'assets/vendor/boxicons/css/boxicons.min.css',
-        // 'assets/css/custom.css'
-        // Add more CSS files as needed
-
+        'assets/vendor/bootstrap-icons/bootstrap-icons.css',
+        'assets/vendor/glightbox/css/glightbox.min.css',
+        'assets/vendor/swiper/swiper-bundle.min.css',
+        'assets/vendor/aos/aos.css',
+        'assets/vendor/google-fonts/google-fonts.css'
       ];
-
-      // Loop through the array and create a <link> element for each CSS file
-      for (var i = 0; i < cssFiles.length; i++) {
-        var css = document.createElement('link');
+      for (let i = 0; i < cssFiles.length; i++) {
+        let css = document.createElement('link');
         css.href = cssFiles[i];
         css.rel = 'stylesheet';
         css.type = 'text/css';
