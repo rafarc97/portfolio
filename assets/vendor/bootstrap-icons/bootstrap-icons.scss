@@ -15,6 +15,7 @@ $bootstrap-icons-font-src: url("#{$bootstrap-icons-font-file}.woff2?#{$bootstrap
   font-display: block;
   font-family: $bootstrap-icons-font;
   src: $bootstrap-icons-font-src;
+    font-display: swap;
 }
 
 .bi::before,
